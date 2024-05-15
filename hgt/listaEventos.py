@@ -1,0 +1,2 @@
+class ListaEventos:
+    pass
