@@ -3,7 +3,6 @@ import pytest
 from hgt.tarea import Tarea
 
 @pytest.fixture
-
 def tarea():
     return Tarea(69, "Mundo", False)
 

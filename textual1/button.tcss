@@ -1,5 +1,6 @@
 Button {
     margin: 1 2;
+    text-align: center;
 }
 
 Horizontal > VerticalScroll {
