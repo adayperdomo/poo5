@@ -11,3 +11,5 @@ tests/test_alumno/__pycache__/test_fichero.cpython-312-pytest-8.1.1.pyc
 hgt/alumnos/__pycache__/listaalumnos.cpython-312.pyc
 hgt/__pycache__/tarea.cpython-312.pyc
 hgt/__pycache__/listaTareas.cpython-312.pyc
+tests_hgt/__pycache__/test_listaTareas.cpython-312-pytest-8.1.1.pyc
+tests_hgt/test_alumno/__pycache__/test_listaalumnos.cpython-312-pytest-8.1.1.pyc
