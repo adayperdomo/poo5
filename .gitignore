@@ -19,3 +19,6 @@ tests_hgt/test_alumno/__pycache__/test_interfaz.cpython-312-pytest-8.1.1.pyc
 tests_hgt/test_alumno/__pycache__/test_listaEventos.cpython-312-pytest-8.1.1.pyc
 tests_hgt/test_alumno/__pycache__/test_listaTareas.cpython-312-pytest-8.1.1.pyc
 tests_hgt/test_alumno/__pycache__/test_tarea.cpython-312-pytest-8.1.1.pyc
+tests_hgt/__pycache__/test_listaTareas.cpython-312-pytest-8.1.1.pyc
+tests_hgt/__pycache__/test_listaTareas.cpython-312-pytest-8.1.1.pyc
+tests_hgt/__pycache__/test_tarea.cpython-312-pytest-8.1.1.pyc
