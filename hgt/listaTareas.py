@@ -1,4 +1,4 @@
-from tarea import Tarea
+from hgt.tarea import Tarea
 
 class ListaTareas:
     LIMITCHAR = "|&&|"
