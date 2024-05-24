@@ -6,19 +6,14 @@ class Tarea:
 
     #Métodos CRUD
     def read(self):
-        return(f"id: {self.id}, tarea: {self.tarea}, estado: {self.estado}")
+        return self.id,self.tarea,self.estado
 
-    def update(self, Aid:int, Atarea:str, Aestado:bool):
-        self.Aid = Aid
-        self.Atarea = Atarea
-        self.Astado = Aestado
+    def update(self, id:int, tarea:str, estado:bool):
+        self.id = id
+        self.tarea = tarea
+        self.stado = estado
 
     def delete(self):
-        del self.id
-        del self.tarea
-        del self.estado
-
-ejemplo = Tarea(69, "Mundo", False)
-ejemplo.read()
-ejemplo.update()
-ejemplo.delete()
+        self.id = None
+        self.tarea = None
+        self.estado = None

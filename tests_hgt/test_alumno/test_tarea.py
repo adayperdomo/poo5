@@ -20,4 +20,4 @@ def test_update(tarea):
 def test_delete(tarea):
     tarea.delete()
 
-    assert tarea.read() == (69, "Mundo", False)
+    assert tarea.read() == (None, None, None)
