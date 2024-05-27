@@ -22,3 +22,11 @@ tests_hgt/test_alumno/__pycache__/test_tarea.cpython-312-pytest-8.1.1.pyc
 tests_hgt/__pycache__/test_listaTareas.cpython-312-pytest-8.1.1.pyc
 tests_hgt/__pycache__/test_listaTareas.cpython-312-pytest-8.1.1.pyc
 tests_hgt/__pycache__/test_tarea.cpython-312-pytest-8.1.1.pyc
+examen/__pycache__/persona.cpython-312.pyc
+hgt/__pycache__/archivo.cpython-312.pyc
+testsExamen/__pycache__/test_archivo.cpython-312-pytest-8.1.1.pyc
+testsExamen/__pycache__/test_jugador.cpython-312-pytest-8.1.1.pyc
+testsExamen/__pycache__/test_listaJugador.cpython-312-pytest-8.1.1.pyc
+testsExamen/__pycache__/test_listaPersona.cpython-312-pytest-8.1.1.pyc
+testsExamen/__pycache__/test_persona.cpython-312-pytest-8.1.1.pyc
+hgt/__pycache__/archivo.cpython-312.pyc
