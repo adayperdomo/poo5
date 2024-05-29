@@ -27,7 +27,7 @@ class ButtonsApp(App[str]):
         )
         elif event.button.id == "adios":      
             self.exit(str(event.button))
-
+"""
     def footer() -> None:
         Binding(key="q", action="quit", description="Quit the app"),
         Binding(
@@ -41,7 +41,7 @@ class ButtonsApp(App[str]):
 
     def compose(self,) -> ComposeResult:
         yield Footer()
-
+"""
 if __name__ == "__main__":
     app = ButtonsApp()
     print(app.run())
