@@ -1,7 +1,8 @@
-from tarea import Tarea
+from hgt.tarea import Tarea
 
 class Evento(Tarea):
-    def __init__(self, fechaInicio:str, horaInicio:str, fechaFin:str, horaFin:str):
+    def __init__(self,id:int, tarea:str, estado:bool, fechaInicio:str, horaInicio:str, fechaFin:str, horaFin:str):
+        super().__init__(id, tarea, estado)
         self.fechaInicio = fechaInicio
         self.horaInicio = horaInicio
         self.fechaFin = fechaFin
@@ -9,7 +10,7 @@ class Evento(Tarea):
 
     #Métodos CRUD
     def read(self):
-        super().read(),self.fechaInicio,self.horaInicio,self.fechaFin,self.hora
+        return super().read(),self.fechaInicio,self.horaInicio,self.fechaFin,self.hora
 
     def update(self, fechaInicio1, horaInicio1, fechaFin1, hora1):
         super().update()
@@ -19,8 +20,8 @@ class Evento(Tarea):
         self.hora1 = hora1
 
     def delete(self):
-        super().update()
-        del self.fechaInicio
-        del self.horaInicio
-        del self.fechaFin
-        del self.fechaFin
+        super().delete()
+        self.fechaInicio = None
+        self.horaInicio = None
+        self.fechaFin = None
+        self.fechaFin = None
