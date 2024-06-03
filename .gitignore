@@ -33,3 +33,5 @@ hgt/__pycache__/archivo.cpython-312.pyc
 examen/__pycache__/jugador.cpython-312.pyc
 hgt/__pycache__/evento.cpython-312.pyc
 textual2/__pycache__/footer.cpython-312.pyc
+tests_hgt/__pycache__/test_evento.cpython-312-pytest-8.1.1.pyc
+hgt/__pycache__/evento.cpython-312.pyc
