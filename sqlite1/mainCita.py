@@ -1,4 +1,4 @@
-from coleccioncitas import ColeccionCitas
+from coleccionCitas import ColeccionCitas
 from cita import Cita
 
 cc = ColeccionCitas()
