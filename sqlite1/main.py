@@ -1,28 +1,29 @@
 import sqlite3
 
-SQLMDLCREATE = """
+SQLMDLCREATE = '''
     CREATE TABLE IF NOT EXISTS citas (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    cita TEXT NOT NULL
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+   	cita TEXT NOT NULL
 )
-"""
+'''
 
-con = sqlite3.connect("citas.db", autocommit=True)
+#con = sqlite3.connect('citas.db', isolation_level = None)
+con = sqlite3.connect('citas.db', autocommit=True)
 
 con.execute(SQLMDLCREATE)
 
-SQLDDINSERT = """
-    INSERT INTO citas(cita) Values ('La vida es bella')
-"""
+SQLDDLINSERT = '''
+    INSERT INTO citas (cita) VALUES ('La vida es bella')
+'''
 
-con.execute(SQLDDINSERT)
+con.execute(SQLDDLINSERT)
 #con.commit()
 
-SQLDDSELECT = """
+SQLDDLSELECT = '''
     SELECT * FROM citas
-"""
+'''
 
-res = con.execute(SQLDDSELECT)
+res = con.execute(SQLDDLSELECT)
 print(res.fetchall())
 
 con.close()
